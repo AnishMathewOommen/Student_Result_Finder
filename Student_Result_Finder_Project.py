@@ -86,7 +86,7 @@ root.config(bg="#01a3a4")
 myfont=Font(family="Cambria",size=22,weight="bold")
 
 
-#RMKCET COLLGE LOGO
+#RMKCET COLLEGE LOGO
 img = ImageTk.PhotoImage(Image.open("E:\collegelogo.png"))
 ImageLabel=Label(root,image=img).pack(padx=20,pady=20,side="left",anchor="nw")
 l=Label(root,text="STUDENT LOGIN",font=myfont,bg="brown",fg="white",height=2,width=65,relief="raised").pack(side="top",pady=30)
